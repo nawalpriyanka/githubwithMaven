@@ -22,13 +22,13 @@ public class LoginTest {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\khushi\\Downloads\\new folder\\chromedriver_win32\\chromedriver.exe");
 	    WebDriver driver=new ChromeDriver();
 	      
-		System.out.println("Launching Browser");
+		//System.out.println("Launching Browser");
 
 	}
 
 	@Test
 	public void doLogin() {
-		System.out.println("Executing Login Test");
+		//System.out.println("Executing Login Test");
 		driver.get("https://en-gb.facebook.com/");
 		
 		driver.manage().timeouts().implicitlyWait(20L, TimeUnit.SECONDS);
