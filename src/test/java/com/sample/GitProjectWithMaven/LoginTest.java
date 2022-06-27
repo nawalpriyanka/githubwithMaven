@@ -42,7 +42,7 @@ public class LoginTest {
 		System.out.println("Clicking on login Button");
 		driver.findElement(By.name("login")).click();
 
-		System.out.println("Loginning ito facebook account");
+		//System.out.println("Loginning ito facebook account");
 
 	}
 
